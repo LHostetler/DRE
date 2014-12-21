@@ -3,7 +3,7 @@ The DRE has an accompanying deployment script to get an instance running located
 
 Additionally, this deployment script is designed to work with a Vagrant instance.  Vagrant automates the creation of virtual machines on local computers.  For more information on Vagrant, visit [www.vagrantup.com](https://www.vagrantup.com/).
 
-Note:  These scripts are designed to work with Red Hat Enterprise Linux 6.5 (or equivalent CentOS).
+Note:  These scripts are designed to work with Red Hat Enterprise Linux 7 (or equivalent CentOS).
 
 ###Vagrant Instructions
 

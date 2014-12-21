@@ -8,6 +8,7 @@ node_modules
 server/coverage
 client/coverage
 coverage
+report
 .DS_Store
 
 */**/.DS_Store
