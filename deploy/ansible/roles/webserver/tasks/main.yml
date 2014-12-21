@@ -67,6 +67,7 @@
   with_items:
     - nodejs
     - npm
+    - nodejs-libxmljs
     - redis
     
 - name: Remove Redis file
@@ -79,6 +80,10 @@
 - name:  Install grunt CLI tools
   sudo: yes
   command: npm install -g grunt-cli
+
+- name:  Install node-gyp
+  sudo: yes
+  command: npm install -g node-gyp
 
 - name:  Install DRE client dependencies
   command: npm install chdir=/var/www/dre/current/client --no-bin-links
